@@ -12,7 +12,7 @@ vmax = 255
 
 # In VideoCapture object either Pass address of your Video file
 # Or If the input is the camera, pass 0 instead of the video file
-img = cv2.imread("001.jpg", 1)
+img = cv2.imread("./img/001.jpg", 1)
 cv2.imshow('Before', img)
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 lowerb = np.array([hmin, smin, vmin])
